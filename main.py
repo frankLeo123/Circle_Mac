@@ -21,4 +21,4 @@ if circle is not None:
 # cv2.imshow("result",img)
 # cv2.waitKey(0)
 cv2.imwrite("./debug/edge3.png",edges)
-cv2.imwrite("./debug/result.png",img)
+cv2.imwrite("./debug/result1.png",img)
