@@ -23,7 +23,7 @@ if circle is not None:
         num_circle = num_circle + 1
     print(img.shape[0]//5)
     # cv2.putText(img,str(num_circle),(200,200),3,3,(0,0,0))
-    cv2.putText(img,str(num_circle),(img.shape[1]//3,img.shape[0]//7),4,4,(0,0,0))
+    cv2.putText(img,str(num_circle),(img.shape[1]//3,img.shape[0]//7),6,4,(0,0,0))
     # cv2.putText(img,)
 # cv2.imshow("result",img)
 # cv2.waitKey(0)
